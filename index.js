@@ -76,8 +76,22 @@
 
 // console.log(typeof age)
 
-// convert number to string
-let age = 34;
-age = 29 + "";
+// // convert number to string
+// let age = 34;
+// age = 29 + "";
 
-console.log(typeof age)
+// console.log(typeof age)
+
+// // convert string to number
+// let firstName = "Himanshu";
+// firstName = +"Himanshu"
+
+// console.log(typeof firstName)
+
+//string concatenation
+let fname = "himanshu";
+let lname = "chauhan";
+
+let fullName = fname + lname
+
+console.log(fullName);
