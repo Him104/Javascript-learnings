@@ -1,7 +1,3 @@
-// problem find a maximum occurence of a character in array
-
-
-
 // binary search algorithm in js
 function binarySearch(arr,key){
    let start = 0;
@@ -14,16 +10,18 @@ if (key==arr[mid]) {
 }    
 else if(key<arr[mid]){
    end = mid-1;
+
 }
 else{
    start = mid+1;
+   
 }
    }
    return null;
 }
 
-let arr = [1,2,3,4,5,6,76,7];
-console.log(binarySearch(arr,5));
+let arr = [1, 3, 5, 7, 8, 9];
+console.log(binarySearch(arr,7));
 
 
 
