@@ -1,20 +1,15 @@
-// function bubblesort(arr)
-// {
-// let counter = 1;
-// while (counter<n)
-// for (let i = 0; i < n-counter; i++) {
-//     if(arr[i]>arr[i+1]){
-//         let temp = arr[i]
-//         arr[i] = arr[i+1];
-//         arr[i+1]= temp;
-//     }
-    
-// }
-// counter++
-// }
+function bubblesort(arr)
+{
+for (let i = 0; i <arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+        if(arr[j]>arr[j+1]){
+            let temp = arr[j]
+            arr[j] = arr[j+1];
+            arr[j+1]= temp;
+          }    }   
+}
+return arr;
+}
+let arr = [234, 43, 55, 63,  5, 6, 235, 547];
 
-// let arr = [];
-
-// console.log(bubblesort([234, 43, 55, 63,  5, 6, 235, 547]));
-
-console.log(eval("10*10+5"))
+console.log(bubblesort(arr));
