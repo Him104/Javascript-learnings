@@ -117,4 +117,8 @@ list.push(0);
 list.push(2);
 // list.pop()
 // list.shift()
+list.unshift(3)
+list.get(2)
+list.set(2,34)
+list.insert(3,54)
 console.log(list);
